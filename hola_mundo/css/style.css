@@ -1,0 +1,30 @@
+p {
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    line-height: 200%;
+}
+#titulo-principal {
+    color:blueviolet;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+}
+.impares {
+    font-family: sans-serif;
+    color: blue;
+    background: grey;
+    text-align: left;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: green;
+}

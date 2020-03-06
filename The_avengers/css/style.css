@@ -1,0 +1,284 @@
+
+#titulo-principal {
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 200%;
+    
+}
+
+
+
+
+
+.marvel-comics {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    border: dotted 5px black;
+}
+
+.ant-man {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ant-man:hover {
+    background-image: url("../img/ant-man-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hulk {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(40, 136, 40);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hulk:hover {
+    background-image: url("../img/hulk-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.iron-man {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(245, 23, 23);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.iron-man:hover {
+    background-image: url("../img/iron-man-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.thor {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(104, 102, 102);
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.thor:hover {
+    background-image: url("../img/thor-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.avispa {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(255, 255, 0, 0.651);
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.avispa:hover {
+    background-image: url("../img/avispa-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.capitan-america {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.capitan-america:hover {
+    background-image: url("../img/capitan-america-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.em {
+    
+    font-style: oblique;
+}
+
+.color {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(219, 148, 15);
+    text-align: justify;
+    font-style: oblique;
+}
+
+/* CAJAS FLOTANTES */
+
+#todo {
+    background-color: rgb(82, 80, 80);
+    width: 100%;
+}
+
+#logo-principal {
+    background-color: rgba(173, 175, 174, 0.377);
+    display: block ;
+    color: white;
+    width: 50%;
+    
+}
+
+#encabezado {
+    background-color: rgb(93, 93, 95);
+    background-image: url("../img/torre-avengers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30%;
+    
+}
+
+#menu {
+    position: fixed;
+    background-color: rgb(82, 80, 82);
+    float: left;
+    color: white;
+    width: 10%;
+    color: transparent;
+    line-height: 100%;
+    font-size: 150%;
+    border: 0px solid  black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    content: 100%;
+    
+}
+
+#contenido {
+    background-color: rgb(82, 80, 80);
+    color: white;
+    float: right;
+    width: 88%;
+    padding: 3%;
+    box-sizing: border-box;
+    background-image: url("../img/avengers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-left: 0%;
+    margin-left: 2%;
+}
+
+#lista-vengadores {
+    width: 100%;
+    border: 0px solid  black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    content: 100%;
+
+}
+
+#item-hulk {
+    /* background-image: url("../img/hulk-ojos.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 300%;
+
+}
+
+#hyp-hulk {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-image: url("../img/hulk-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#item-thor {
+    background-image: url("../img/thor-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#item-capitan-america {
+    background-image: url("../img/capitan-america-ojos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#vengadores-unidos:hover {
+    text-decoration: double;
+    display: block;
+    color: rgba(255, 255, 255, 100);
+    width: 100%;
+    height: 1466px;
+    background-image: url("../img/avengers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: auto;
+    float: inherit;
+    
+}
+
+#vengadores-unidos {
+    text-decoration: underline double; 
+}
+
+.item-vengador {
+    width: 100%;
+    border: 0px solid  black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    content: 100%;
+    opacity: 60%;
+    border: 0px solid  black;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    content: 100%;
+}
+
+.item-vengador:hover {
+    opacity: 100%;
+}
+
+.ojos-menu {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(129, 11, 11);
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
